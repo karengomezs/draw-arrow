@@ -16,8 +16,8 @@ canvas {
     position: absolute;
     z-index: 1;
     border: 5px solid;
-    width: 50%;
-    height: 300px;
+    width: 500px;
+    height: 200px;
     background-color: white;
 }
 

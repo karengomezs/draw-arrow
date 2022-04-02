@@ -11,12 +11,23 @@ console.log(teclas);
 document.addEventListener("keyup", drawKeyboard);
 const cuadrito = document.getElementById("draw");
 const papel = cuadrito.getContext("2d");
-let x = 150;
-let y = 150;
-newline("red", 149, 149, 151, 151, papel);
+
 
 const width = cuadrito.getClientRects()[0].width;
 const height = cuadrito.getClientRects()[0].height;
+const centerX = Math.floor(width / 4);
+const centerY = Math.floor(height / 4);
+const canvasPosition = cuadrito.getClientRects()[0]
+    //let x = Math.floor(width / 2);
+    //let y = Math.floor(width / 2);
+
+let x = 145;
+let y = 71;
+
+
+console.log(centerX, centerY, height, cuadrito.getClientRects());
+newline("red", 145, 70, 146, 71, papel);
+
 
 function newline(color, xinicial, yinicial, xfinal, yfinal, lienzo) {
     lienzo.beginPath();
