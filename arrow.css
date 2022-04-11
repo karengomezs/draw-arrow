@@ -25,8 +25,7 @@ img {
     width: 70%;
 }
 
-
-/* html {
-    background: url('./fondo1.jpg') bottom center;
-    background-size: cover;
-} */
+.title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
